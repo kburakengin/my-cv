@@ -1,77 +1,83 @@
 ---
 layout: cv
-title: Burak Engin's CV
+title: Kadir Burak Engin — CV
 ---
-# Burak Engin
-Consultant (ECM & Software Applıcatıons), Sap Commerce & Java Developer
+# Kadir Burak Engin
+Backend & Infrastructure Developer — Node.js · TypeScript · AWS · CI/CD
 
 ## Contact
 
-- kburakengin@icloud.com
+- kburakengin@gmail.com
 - [linkedin.com/in/kburakengin](https://linkedin.com/in/kburakengin)
-- [twitter.com/kburakengin](https://twitter.com/kburakengin)
-- [github.com/KBurak](https://github.com/KBurak)
+- [github.com/kburakengin](https://github.com/kburakengin)
+- [mobeat.io](https://mobeat.io)
 
-## About Me
+## Summary
 
-A hard-working and self-motivated individual, looking out for opportunities in Jr. Backend Developer position to find ways to help my teammates work more efficiently. I seek learning opportunities in every task and interaction, no matter how big or small.
+Backend & infrastructure developer with 5+ years building and operating production systems at scale, specializing in resilient backend architecture, cloud infrastructure on AWS, and the CI/CD and monitoring that keep services stable under load. I currently own the backend and infrastructure for a mobile app with ~4M registered users, and shipped Mobeat.io, a production analytics platform, end-to-end on AWS.
 
-- Loves nature
-- Can speak english
+## Experience
 
-## Currently
+`Sep 2021 – Present`
+__Backend & Infrastructure Developer__, Gamester Kids — Istanbul (Remote)
 
-Working as a SAP Commerce & Java Developer.
+*"Tiny Minies" — kids' mobile game (Firebase / Firestore, Node.js / TypeScript)*
+
+- Own the backend and infrastructure for a production service with ~4M registered users, 786K+ active in the last 12 months, and 673K+ installs over the same period.
+- Handle production API traffic of ~64K requests/day, optimizing Firestore queries and data models to keep latency low as usage grew.
+- Designed complex Firestore schemas and data flows, balancing read/write performance and cost at scale; migrated the support backend from JavaScript to TypeScript.
+- Implemented App Store & Google Play server-side notifications (RTDN) and integrated MMP services via webhooks to track subscriptions and revenue.
+- Authored a custom open-source GitHub Action ([firebase-functions-deploy](https://github.com/kburakengin/firebase-functions-deploy), on GitHub Marketplace) enabling selective Firebase Functions deployment — shipping only changed functions instead of the entire set.
+- Automated Firebase hosting/functions deployment and instrumented Sentry monitoring, resulting in no major incidents in production.
+
+`Feb 2022 – Present`
+__Founder & Lead Developer__, [Mobeat.io](https://mobeat.io) — Remote
+
+*Subscription analytics & revenue platform for mobile app teams (live in production)*
+
+- Designed and built the full platform end-to-end: React + Material UI frontend, a Node.js / TypeScript API on AWS Elastic Beanstalk (Dockerized via ECR), and AWS Lambda + SQS for asynchronous store webhooks (RTDN), scheduled jobs, and event processing.
+- Architected the data layer with PostgreSQL (Sequelize ORM, RDS in production) and Redis caching for chart and API performance.
+- Built a fully automated CI/CD pipeline in GitHub Actions deploying to ECR for both the Elastic Beanstalk API and Lambda functions.
+- Set up CloudWatch alarm-driven scaling with EBS auto-scaling — no major incidents for ~12 months in production — and reduced AWS costs by right-sizing infrastructure.
+
+## Selected Project
+
+`2024–2025`
+__B2B Financial Operations Platform__ — Python backend (client project)
+
+- Co-developed a production Python backend: FastAPI with async SQLAlchemy (PostgreSQL), Redis, and Kafka / RabbitMQ for event-driven messaging, on AWS & Kubernetes (EKS, Helm, Terraform) with OpenTelemetry, Prometheus & Sentry observability.
+- Built AWS SES email-template tooling (boto3) reusing the app's service layer; integrated S3 and Auth0.
+
+## Earlier Experience
+
+`2020–2021`
+__Java / SAP Commerce (Hybris) Developer__, BTC IT Services — e-commerce globalization, B2B features (Spring Boot, Hibernate, Angular).
+
+`2017–2020`
+__Brand Manager__, Studio Fashion Agency
 
 ## Skills
 
-SAP Commerce ,Java, Restful Web Services, Python, Django, Flask, Git, API Design Knowledge, MySQL, MSSQL, PostgreSQL, HTML, CSS, Bootstrap
-
+- __Languages:__ TypeScript, JavaScript (Node.js), Python, SQL, Java
+- __Backend:__ Node.js, Express, FastAPI, REST APIs, event-driven architecture, message queues (SQS, Kafka, RabbitMQ), webhooks, data modeling
+- __Cloud & Infrastructure:__ AWS (Lambda, SQS, Elastic Beanstalk, ECR, RDS, S3, SES, Cognito, CloudWatch), GCP / Firebase
+- __DevOps:__ Docker, Kubernetes, Terraform, CI/CD, GitHub Actions, monitoring & observability (CloudWatch, Sentry, OpenTelemetry, Prometheus)
+- __Databases:__ PostgreSQL, Firestore, Redis, Sequelize (ORM)
+- __Frontend:__ React, Material UI, Redux Toolkit
 
 ## Education
 
-`2011-2015`
-__Mugla Sitki Kocman University, Public Administration.__
+`2020–2024`
+__B.Sc. Management Information Systems__, Istanbul University
 
+`2011–2015`
+__B.A. Public Administration__, Muğla Sıtkı Koçman University
 
-## Occupation
+## Certifications
 
-`2020-2020`
-__Consultant, ECM & Software Applications__, Studio Fashion Agency
+__Python Software Development__ — Arı Bilgi IT Academy (Django, ML, data manipulation)
 
-- Currently working as a Sap Commerce & Java Developer on Avansas UK Globalization Project.
+## Languages
 
-
-`2018-2020`
-__Product & Brand Manager__, Studio Fashion Agency
-
-- Developed and implemented marketing and sales plans and deﬁned strategies for the next calendar year
-- Worked closely with other agencies during development and launch of brand website to assist in its graphic design, UI/UX, translation from other languages, delivery without going over allocated budget as well as its shipment on time
-- Managed deliveries and approvals for all garments in strict coordination with production team
-- Observed and tracked photo samples to ensure accuracy of samples is aligned with those on brand website and social media photo-shoots
-- Managed new product and content releases
-
-
-`2017-2018`
-__Merchandiser__, Studio Fashion Agency
-
-- Accurately logged all shipping and receiving orders
-- Served as business representative at expositions and trade fairs in Germany to acquire new customers and manufacturers
-- Provided top-notch customer support to already existing customer questions as well as addressed other likely customer needs to increase customer satisfaction and loyalty
-
-##  Projects
-- Avansas UK Globalization Project (2020 - , Office Supplies & Appliances, E-Commerce, SAP Commerce & Java Developer)
-- My Personel projects can be found on my GitHub page. [github.com/KBurak](https://github.com/KBurak)
-
-## Certificates
-
-`2020-Present`
-__Python Software Development Training - Ari Bilgi Information Technology Academy__
-- Hands-on training working with the following technologies: Python, Database (SQLite & MySQL), Web App Development using Django framework, Data Manipulation (numPy & pandas), Machine Learning
-
-`2018`
-__E-Commerce and the Place of E-Commerce in the World__
-
-## Hobbies
-
-Software, Space, History, Basketball, Technology
+- English — Professional Working
+- Turkish — Native
